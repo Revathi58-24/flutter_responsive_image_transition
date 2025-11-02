@@ -1,16 +1,47 @@
-# demo1
+# 🌸 Flutter Responsive Image Transition
 
-A new Flutter project.
+A simple Flutter project that displays an image from assets with **responsive layout** and **beautiful transition animations** using `FadeTransition` and `ScaleTransition`.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Displays image from local **assets**  
+- ✅ **Responsive UI** – image scales based on screen size  
+- ✅ **Smooth fade & scale transition animation**  
+- ✅ Beginner-friendly Flutter example  
+- ✅ Fully working and customizable  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧩 Folder Structure
+
+flutter_responsive_image_transition/
+┣ assets/
+┃ ┗ image/
+┃ ┗ flower1.jpg
+┣ lib/
+┃ ┗ main.dart
+┗ pubspec.yaml
+
+** pubspec.yaml**
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/flower1.jpg
+
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/flutter_responsive_image_transition.git
+2. **Navigate to project directory**
+cd flutter_responsive_image_transition
+3. **Get Flutter packages**
+flutter pub get
+4. **Run the app**
+flutter run
