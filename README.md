@@ -16,32 +16,14 @@ A simple Flutter project that displays an image from assets with **responsive la
 
 ## 🧩 Folder Structure
 
-flutter_responsive_image_transition/
-┣ assets/
-┃ ┗ image/
-┃ ┗ flower1.jpg
-┣ lib/
-┃ ┗ main.dart
-┗ pubspec.yaml
+flutter_responsive_image_transition/assets/images/flower1.jpg
 
-** pubspec.yaml**
+
+
+
 flutter:
   uses-material-design: true
 
   assets:
-    - assets/image/flower1.jpg
+    - assets/images/flower1.jpg
 
-
----
-
-## ⚙️ Setup Instructions
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/flutter_responsive_image_transition.git
-2. **Navigate to project directory**
-cd flutter_responsive_image_transition
-3. **Get Flutter packages**
-flutter pub get
-4. **Run the app**
-flutter run
